@@ -1,0 +1,81 @@
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url(../assets/img/desktop-wallpaper-nron-blrr-stra.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#logo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 0.07em;
+}
+
+#acao-download{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    font-family: 'FontLucas', serif;
+}
+
+.navbar-transparent{
+    background: black;
+}
+
+.capa{
+    text-align: center;
+    color: white;
+}
+
+.btn-custom{/*classe para os botão da section home*/
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background: #fff;
+    color: black;
+}
+
+#links{
+    height: 90vh;
+    background: white;
+}
+
+.custom-btn{ /*classe para os botões da section links*/
+    border: 2px solid black;
+    color: black;
+    margin: 10px 5px;
+    border-radius: 500px;
+}
+
+.custom-btn:hover{
+    background: #212529;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#h2-titulo{
+    font-family: 'FontLucas', serif;
+    font-size: 5em;
+}
+
+#vazio{
+    height: 10vh
+}
