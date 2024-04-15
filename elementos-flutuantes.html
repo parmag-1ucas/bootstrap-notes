@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - ELementos Flutuantes</title>
+  </head>
+  <body style="margin-bottom: 200px;padding: 16px;">
+    
+    <!--Elementos flutuantes-->
+    <div style="border: 1px solid red" class="clearfix">
+        <div class="bg-success float-left">Float Left</div>
+        <div class="bg-warning float-right">Float Right</div>
+    </div>
+
+    <!--Posicionamento fixo - top e bottom-->
+    <h1 class="bg-success fixed-bottom">Título do conteúdo fixo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nesciunt, architecto quis corrupti odit unde alias! Recusandae blanditiis, atque vero ad amet rem incidunt aperiam suscipit, earum voluptatibus mollitia laudantium.</p>
+
+    <!--
+        Float responsivo - float-<tela>-<direcao>
+            tela: sm, md, lg, xl
+            alinhamento: left, right
+    -->
+    <p class="float-sm-right">tela &gt;= 576px * </p> <!--Small-->
+    <p class="float-md-right">tela &gt;= 768px * </p> <!--Medium-->
+    <p class="float-lg-right">tela &gt;= 992px * </p> <!--Large-->
+    <p class="float-xl-right">tela &gt;= 1200px * </p> <!--Extra Large-->
+
+    <br>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci totam facilis voluptatum laboriosam minima, sit excepturi similique corrupti voluptas dolorem est ut beatae inventore repudiandae, ab eum a voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit accusantium iure error quia eligendi ad nisi! Odio nesciunt, quas ut, incidunt nostrum id, ratione fuga aliquid ducimus consectetur exercitationem quis.</p> 
+
+    <!--Colar no topo (sticky)-->
+    <ul class="bg-danger list-inline sticky-top"> <!--esse comando aqui é importante pq tem mta coisa legal q da pra fazer-->
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <h1>Título do conteúdo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia blanditiis quaerat quas dolorem! Quia odio sunt pariatur quasi distinctio voluptatem velit labore, eum quam non molestiae ea modi harum cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque sit modi ullam harum. Recusandae ab illo saepe. Consectetur unde nobis doloremque tempore laudantium magnam quos cumque error consequatur commodi!</p>
+
+    <div class="d-flex">
+      <div class="container align-items-center">
+          <div class="row">
+              <div class="col-md-12" style="text-align: center;">
+                  <a class="btn btn-dark" href="index.html">Retornar a Index</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

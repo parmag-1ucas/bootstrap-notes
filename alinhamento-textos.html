@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de Textos</title>
+  </head>
+  <body style="margin-bottom: 200px;padding: 16px;">
+    
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi dicta rem ex, odit obcaecati voluptatum animi quidem sit iure libero alias. Laboriosam aut minima modi eius voluptates debitis ipsam.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum deserunt voluptatibus veniam odio corrupti? Maxime eos quas earum, et, quae alias neque laudantium quisquam sint possimus necessitatibus, provident ipsum recusandae.
+    </p>
+
+    <br>
+    <br>
+
+    <!--
+      text-<tela>-<elemento>
+      tela: sm, md, lg, xl
+      alinhamento: left, center, right
+
+    -->
+    <p class="text-sm-right">tela &gt;= 576px</p> <!--Small-->
+    <p class="text-md-right">tela &gt;= 768px</p> <!--Medium-->
+    <p class="text-lg-right">tela &gt;= 992px</p> <!--Large-->
+    <p class="text-xl-right">tela &gt;= 1200px</p> <!--Extra Large-->
+    
+    <br>
+    <br>
+
+    <!--Elemento Block para inline(inline não pode ter margem aplicada)-->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1> <!--Classe aplica cor de fundo-->
+    <p class="bg-success d-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <br>
+    <br>
+
+    <!--Elemento Inline para Block-->
+    <span class="d-block">Lorem ipsum dolor</span>
+    <span class="d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+    <div class="bg-warning"><!--Classe aplica um amarelo-laranja de fundo, como warning-->
+      <!--Elemento inline-block-->
+      <h3 class="d-inline-block bg-error">Lorem ipsum</h3>
+      <h3 class="d-inline-block bg-success"style="margin-top: 50px;width:800px;">Lorem ipsum dolor</h3>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="d-flex">
+      <div class="container align-items-center">
+          <div class="row">
+            <div class="col-md-12" style="text-align: center;">
+              <a class="btn btn-dark" href="index.html">Retornar a Index</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
