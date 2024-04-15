@@ -79,3 +79,15 @@ body{
 #vazio{
     height: 10vh
 }
+
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0;
+    position: relative;
+}
+
+footer h3, p, a{
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    text-align: center;
+}
